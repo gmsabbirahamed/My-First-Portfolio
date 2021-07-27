@@ -1,0 +1,364 @@
+html,body{
+	margin: 0%;
+	box-sizing: border-box;
+	overflow-x: hidden;
+}
+
+/*--------------sabbir---------------*/
+a{
+	text-decoration: none;
+	color: black;
+}
+ul{
+	list-style: none;
+}
+
+
+
+/*--------x-----sabbir--------x------*/
+
+
+
+/*--------------navigation---------------*/
+
+
+.navul{
+	display: flex;
+}
+
+
+.navli{
+	font-size: 22px;
+	font-family: sans-serif;
+	padding: 0 6px;
+}
+.navli a:hover{
+	text-shadow: 0px .5px 8px blue;
+}
+
+.navone{
+	font-size: 34px;
+	font-family: sans-serif;
+	margin-left: 15px;
+	margin-top: 5px;	
+}
+.navone a:hover{
+	background-color: red;
+	color: white;
+}
+
+.navboss{
+	display: flex;
+	justify-content: space-between;
+
+}
+
+.social{
+	margin-right: 9px;
+}
+.social a img:hover{
+	transform: rotate(-42deg);
+}
+
+.navboss{
+	height: 4.4rem;
+}
+
+.imglogo{
+	width: 1.2rem ;
+	padding: 5px;
+}
+
+.navul, .social{
+	margin-top: 11px;
+}
+/*--------x-----navigation--------x------*/
+
+/*-----------------main-----------------*/
+
+/*---------------site---------------*/
+.sphoto{
+	width: 100%;
+	background-size: cover;
+}
+
+.headd{
+	position: relative;
+}
+.heading{
+	position: absolute;
+	top: 10%;
+	left: 10%;
+}
+
+.hlda{
+	font-size: 30px;
+	font-family: sans-serif,cursive;
+}
+.hldb{
+	font-size: 37px;
+	font-family: sans-serif;
+}
+
+.haft::after{
+	content: '';
+	width: 7px;
+	height: 60%;
+	background: linear-gradient(#ff469f, #ff6062);
+	position: absolute;
+	left: -22px;
+	top: 21px;
+}
+
+
+.allbpst{
+	width: 90%;
+	margin-top: 30px;
+	font-family: sans-serif;
+	display: flex;
+	justify-content: space-between;
+	margin-left: 5%;
+}
+
+.bpost{
+	width: 25%;
+	box-shadow: 0 15px 20px rgba(0,0,0,.2);
+	
+}
+
+.pimg{
+	width: 100%;
+	background-size: cover;
+}
+
+.pheading{
+	padding: 6px 8px;
+	text-align: center;
+	margin-bottom: 30px;
+
+}
+
+.pbtn{
+	margin-top: 2px;
+	margin-bottom: 8px;
+	border: none;
+	border-radius: 3rem;
+	font-size: 18px;
+	cursor: pointer;
+	padding: 9px 22px;
+	margin-left: 32%;
+	background-color: #a00ffe;
+}
+
+.ptm{
+	text-align: center;
+	display: block;
+	padding: 3px 3px 7px 3px;
+	margin-bottom: 2rem;
+	margin-top: .8rem;
+}
+
+
+.aa{
+	font-size: 39px;
+	font-family: sans-serif;
+	text-align: center;
+	margin: 3rem 1rem 2rem 1rem;
+}
+
+
+.post{
+	display: grid;
+	grid-template-columns: 70% 30%;
+}
+
+
+
+.blogpost{
+	padding: 3.6rem;
+}
+
+
+
+.pdate{
+	background-color: pink;
+	padding: 1rem;
+	position: absolute;
+	bottom: 0%;
+	left: 45%;
+	border-radius: 3rem;
+}
+
+.postcon, .posttitle{
+	padding: 1rem 2rem;
+	position: relative;
+}
+
+.bpbtn{
+	border: none;
+	padding: 1rem 2rem;
+	cursor: pointer;
+	
+	border-radius: 3rem;
+	float: right;
+	font-size: 1rem;
+	margin-right: 4rem;
+	border: 1px solid blue;
+}
+
+.imgpic{
+	overflow: hidden;
+}
+
+.ppimg{
+	width: 100%;
+	transition: all 1s;
+}
+
+.ppimg:hover{
+	transform: scale(1.3);
+}
+
+
+.kk{
+	font-family: sans-serif;
+	font-size: 2rem;
+}
+
+
+/*-------x-------site-------x-------*/
+
+
+/*-------x-------aside-------x-------*/
+
+.category{
+	font-family: sans-serif;
+}
+
+.cate{
+	font-size: 33px;
+	margin-bottom: 2.1rem;
+}
+
+.listitem{
+	background-color: red;
+	padding: .7rem 1.4rem;
+	margin: .7rem;
+	border-radius: 3rem;
+	width: 75%;
+	display: flex;
+	justify-content: space-between;
+
+}
+
+.kkk{
+	font-size: 1.4rem;
+	font-family: sans-serif;
+	color: black;
+}
+
+.popost .posttitle{
+	padding: 1rem 2rem;
+	text-align: justify;
+
+}
+
+.popost .pdate{
+	background-color: white !important;
+	padding: .4rem .1rem !important;
+	position: absolute !important;
+	bottom: 0% !important;
+	left: 2rem !important;
+	border-radius: 0rem !important;
+}
+
+.nnew{
+	font-size: 33px;
+	font-family: sans-serif;
+	background-color: white;
+}
+
+.formin{
+	background-color: transparent;
+	border: 1px solid black;
+	padding: 1rem;
+	width: 59%;
+	margin-left: 4rem;
+}
+
+.forbtn{
+	background-color: red;
+	border: none;
+	text-align: center;
+	padding: 1rem;
+	width: 67%;
+	margin-left: 4rem;
+}
+
+.iii{
+	font-family: sans-serif;
+	font-size: 2rem;
+}
+
+.sss{
+	background-color: red;
+	padding: .4rem 1.2rem;
+	margin: 1rem .5rem;
+	display: inline-flex;
+	border-radius: 3rem;
+}
+
+
+
+
+
+/*-------x-------aside-------x-------*/
+
+
+/*---------x-------main--------x--------*/
+
+/*-----------------footer-----------------*/
+
+.footer{
+	background-color: rgba(35,35,35,1);
+	color: white;
+	font-family: sans-serif;
+	width: 100%;
+	height: 350px;
+	margin-top: 7rem;
+	padding: 5rem 4rem;
+}
+
+.footerin{
+	display: grid;
+	grid-template-columns: 44% 17% 17% 26%;
+}
+
+.p2{
+	margin-right: 3rem;
+}
+
+.f11{
+	display: grid;
+	grid-template-columns: 50% 50%;
+}
+
+.fanc{
+	color: white;
+}
+
+.conf .fcon{
+	border: 1px solid cyan;
+	padding: 1rem 4rem;
+	margin-top: 2.4rem;
+	display: inline-flex;
+}
+
+.conf .fnum{
+	display: flex;
+	padding: 1rem 3rem;
+}
+
+
+
+/*---------x-------footer--------x--------*/
